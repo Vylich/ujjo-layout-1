@@ -1,0 +1,24 @@
+.page {
+  display: flex;
+  justify-content: center;
+  max-width: 1440px;
+
+  @include vp-1199 {
+    max-width: 1200px;
+  }
+}
+
+.page__body {
+  margin: 0;
+  padding: 0 20px;
+  width: 100%;
+
+}
+
+.page__container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #222222;
+}

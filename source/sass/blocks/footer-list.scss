@@ -1,0 +1,14 @@
+.footer-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 93px;
+  background-color: #CEFD3B;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list__link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #222222;
+}

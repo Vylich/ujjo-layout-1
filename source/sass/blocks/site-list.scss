@@ -1,0 +1,25 @@
+.site-list__item {
+  padding: 15px 0;
+}
+
+.site-list__item:nth-child(4) {
+  padding: 0;
+}
+
+.site-list__link {
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #222222;
+  padding: 15px 44px;
+}
+
+.site-list__item:hover,
+.site-list__item--active {
+  background-color: #FB4B4D;
+}
+
+.site-list__item:hover .site-list__link,
+.site-list__item--active .site-list__link{
+  color: #ffffff;
+}

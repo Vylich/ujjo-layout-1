@@ -1,0 +1,27 @@
+.main-footer {
+  position: relative;
+}
+
+.main-footer__wrapper {
+  padding: 20px;
+  border-bottom: 1px solid #222222;
+
+  &::after {
+    content: '';
+    background-image: url("/img/background/bg-footer.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    bottom: 54px;
+    height: 830px;
+    z-index: -1;
+  }
+}
+
+.main-footer__big-logo {
+  background-image: url("/img/background/border-footer.svg");
+  width: 1354px;
+  height: 716px;
+  padding: 100px 247px;
+}

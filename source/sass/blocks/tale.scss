@@ -1,0 +1,35 @@
+.tale {
+  background-image: url("/img/background/bg-story.svg");
+  width: 700px;
+  height: 702px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  flex: 1;
+
+  @include vp-1199 {
+    width: 386px;
+    height: 385px;
+  }
+}
+
+.tale__wrapper {
+  padding: 135px 152px 131px 156px;
+  text-align: center;
+
+  @include vp-1199 {
+    padding: 68px 30px;
+  }
+}
+
+.tale__text {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 0 0 24px 0;
+  line-height: 24px;
+  font-family: 'Good';
+
+  @include vp-1199 {
+    font-size: 8px;
+    margin-bottom: 3px;
+  }
+}

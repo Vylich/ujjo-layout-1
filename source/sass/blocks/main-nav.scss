@@ -1,0 +1,28 @@
+.main-nav {
+  border-bottom: 1px solid #222222;
+  width: 100%;
+}
+
+.main-nav__list {
+  width: 100%;
+  min-height: 115px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  align-items: center;
+  list-style-type: none;
+  padding: 0 20px;
+
+  @include vp-1199 {
+    flex-direction: column;
+  }
+}
+
+.main-header {
+  width: 100%;
+}
+
+
+.main-container {
+  width: 100%;
+}

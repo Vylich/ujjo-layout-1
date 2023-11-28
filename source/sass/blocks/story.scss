@@ -1,0 +1,30 @@
+.story__img-wrapper {
+  border-bottom: 1px solid #222222;
+}
+
+.story__title {
+  text-transform: uppercase;
+  font-size: 58px;
+  line-height: 58px;
+  text-align: center;
+  margin: 44px 0;
+
+  @include vp-1199 {
+    font-size: 30px;
+    line-height: 30px;
+    margin: 42px 0;
+  }
+}
+
+.story__container {
+  display: flex;
+}
+
+.story__wrapper {
+  flex: 1;
+  border-right: #222222 1px solid;
+}
+
+.story__img {
+  border-top: #222222 1px solid;
+}
